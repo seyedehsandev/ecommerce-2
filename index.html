@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ehsan Kala</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header  -->
+      <div class="header">
+        <div class="logo">Ehsan Kala</div>
+        <div class="menu">
+          <span class="material-symbols-outlined">shopping_cart</span>
+          <h4 class="cartCount">0</h4>
+        </div>
+      </div>
+      <!-- ***** -->
+      <div class="underHeader">
+        <div class="category">
+          <select id="deviceSelect" class="catEl" >
+            <option value="all">All</option>
+            <option value="phone">Phones</option>
+            <option value="laptop">Laptop</option>
+          </select>
+        </div>
+        <div class="category" >
+          <select id="brands" class="catEl">
+            <option value="all">All</option>
+            <option value="nokia">Nokia</option>
+            <option value="apple">Apple</option>
+            <option value="samsung">Samsung</option>
+            <option value="nothing">Nothing</option>
+            <option value="asus">Asus</option>
+
+          </select>
+        </div>
+        <div class="category" >
+          <select id="prices" class="catEl">
+            <option value="all">All</option>
+            <option value="p300">Less than 300$</option>
+            <option value="p600">300$ - 600$</option>
+            <option value="p1000">More than 600$</option>
+          </select>
+        </div>
+        <div class="category" >
+          <select id="sort" class="catEl">
+            <option value="all">All</option>
+            <option value="lth">Low to High</option>
+            <option value="htl">High to Low</option>
+          </select>
+        </div>
+        <!-- search box -->
+        <div class="searchBox">
+          <input type="search" placeholder="Search" class="searchInput">
+          <button class="searchReset">Reset</button>
+        </div>
+      
+      </div>
+      
+
+      <!-- cart  -->
+      <div class="fixed">
+        <div class="cartTop">
+            <p class="cartHeader">Cart: </p>
+            <div class="closeCart"><span class="material-symbols-outlined">cancel</span></div>
+
+          </div>
+          <div class="inCartProductCon">
+            
+            
+          </div>
+          <div class="price">
+            <div class="totalPrice">Total Price:0$</div><div class="clearCart">Clear All</div>
+          </div>
+          </div>
+          
+          <!-- ******* products  -->
+          <div class="products"></div>
+
+          <div class="no">No Product Found...</div>
+          </div>
+          <div class="time">15:28</div>
+          <script src="index.js"></script>
+          </body>
+                  </html>
