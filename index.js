@@ -25,9 +25,6 @@ let products =[
 
 
 
-let container = document.querySelector(".container")
-let cPanel =document.querySelector(".cPanel")
-let logo =document.querySelector(".logo")
 
 
 let productContainer = document.querySelector(".products")
@@ -202,7 +199,7 @@ let buyFun = (productId)=>{
 
     }else{
 
-        mainItem ={
+         mainItem ={
             id:mainItem.id,
             title:mainItem.title,
             price:mainItem.price,
